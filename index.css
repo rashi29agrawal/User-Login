@@ -1,0 +1,91 @@
+
+h2{
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.login {
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
+.s_button{
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.signup {
+
+    width: 50%;
+    margin:20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.user{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#user_role{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+
+input[type=text],
+input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/*set a style for the buttons*/
+
+button {
+    background-color: #748cdd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
